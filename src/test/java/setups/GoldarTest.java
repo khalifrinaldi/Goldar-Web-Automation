@@ -20,6 +20,5 @@ public class GoldarTest {
         Reporter.loadXMLConfig(new File("extent-config.xml"));
         Reporter.setSystemInfo("user", System.getProperty("user.name"));
         Reporter.setSystemInfo("os", "Mac OSX");
-        Reporter.setTestRunnerOutput("Login Feature");
     }
 }

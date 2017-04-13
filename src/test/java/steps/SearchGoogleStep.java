@@ -1,5 +1,6 @@
 package steps;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,5 +25,10 @@ public class SearchGoogleStep {
     public void onGoogleHomepageTypeAndTapSearch(String text) throws Throwable {
         driver.findElement(By.id("lst-ib")).sendKeys(text);
         driver.findElement(By.id("_fZl")).click();
+    }
+
+    @Then("^On Google Search Element Sign in$")
+    public void onGoogleSearchElementSignIn() throws Throwable {
+       driver.findElement(By.id("failed")).click();
     }
 }

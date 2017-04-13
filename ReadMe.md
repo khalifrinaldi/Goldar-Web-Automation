@@ -79,5 +79,10 @@ if you want to run all your scenario and generate Report :
 
 You can find your report on report directory and the filename is GoldarReport.html
 ```
+```bash
+Even Build Success or Build Failed it will generate report and show you where is the error happen
+
+if You want to check how if Build Failed just enable my 2nd Scenario and run it, then you will see the results.
+```
 
 If you have any specific queries reach out to me at [Github](https://github.com/raixa) or [E-Mail](mailto:khalif.rinaldi@gmail.com)

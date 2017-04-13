@@ -69,8 +69,7 @@ And enable "Allow Remote Automation" on develop bar
 ```bash
 if you only want to run scenario to check it work or not :
 1. Go to your scenario
-2. Right click
-3. Choose Run
+2. Run your Project
 ```
 ```bash
 if you want to run all your scenario and generate Report :
